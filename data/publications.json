@@ -1,0 +1,509 @@
+[
+    {
+        "title": "UCLID5: Multi-Modal Formal Modeling, Verification, and Synthesis",
+        "year": "2022",
+        "venue": {
+            "name": "34th International Conference on Computer-Aided Verification",
+            "short": "CAV"
+        },
+        "authors": [
+            {
+                "first": "Elizabeth",
+                "middle": "",
+                "last": "Polgreen"
+            },
+            {
+                "first": "Kevin",
+                "middle": "",
+                "last": "Cheang"
+            },
+            {
+                "first": "Pranav",
+                "middle": "",
+                "last": "Gaddamadugu"
+            },
+            {
+                "first": "Adwait",
+                "middle": "",
+                "last": "Godbole"
+            },
+            {
+                "first": "Kevin",
+                "middle": "",
+                "last": "Laeufer"
+            },
+            {
+                "first": "Shaokai",
+                "middle": "",
+                "last": "Lin"
+            },
+            {
+                "first": "Yatin",
+                "middle": "",
+                "last": "Manerkar"
+            },
+            {
+                "first": "Federico",
+                "middle": "",
+                "last": "Mora"
+            },
+            {
+                "first": "Sanjit",
+                "middle": "A.",
+                "last": "Seshia"
+            }
+        ],
+        "link": "https://arxiv.org/abs/2208.03699",
+        "extra": "https://github.com/uclid-org/uclid",
+        "slides": "https://easychair.org/smart-slide/slide/SJtw",
+        "bibtex": "https://dblp.org/rec/conf/cav/PolgreenCGGLLMM22.html?view=bibtex",
+        "section": "Refereed Workshop, Short & Tool Papers",
+        "selected": true
+    },
+    {
+        "title": "Z3str4: A Multi-armed String Solver",
+        "year": "2021",
+        "venue": {
+            "name": "24th International Symposium on Formal Methods",
+            "short": "FM"
+        },
+        "authors": [
+            {
+                "first": "Federico",
+                "middle": "",
+                "last": "Mora"
+            },
+            {
+                "first": "Murphy",
+                "middle": "",
+                "last": "Berzish"
+            },
+            {
+                "first": "Mitja",
+                "middle": "",
+                "last": "Kulczynski"
+            },
+            {
+                "first": "Drik",
+                "middle": "",
+                "last": "Nowotka"
+            },
+            {
+                "first": "Vijay",
+                "middle": "",
+                "last": "Ganesh"
+            }
+        ],
+        "link": "https://people.eecs.berkeley.edu/~fmora/fm21a.pdf",
+        "extra": "https://z3str4.github.io/",
+        "slides": "https://people.eecs.berkeley.edu/~fmora/fm21a_presentation.pdf",
+        "bibtex": "https://dblp.org/rec/conf/fm/MoraBKNG21.html?view=bibtex",
+        "section": "Refereed Conference Papers",
+        "selected": true
+    },
+    {
+        "title": "BanditFuzz: Fuzzing SMT Solvers with Multi-Agent Reinforcement Learning",
+        "year": "2021",
+        "venue": {
+            "name": "24th International Symposium on Formal Methods",
+            "short": "FM"
+        },
+        "authors": [
+            {
+                "first": "Joseph",
+                "middle": "",
+                "last": "Scott"
+            },
+            {
+                "first": "Trishal",
+                "middle": "",
+                "last": "Sudula"
+            },
+            {
+                "first": "Hammad",
+                "middle": "",
+                "last": "Rehman"
+            },
+            {
+                "first": "Federico",
+                "middle": "",
+                "last": "Mora"
+            },
+            {
+                "first": "Vijay",
+                "middle": "",
+                "last": "Ganesh"
+            }
+        ],
+        "link": "https://people.eecs.berkeley.edu/~fmora/fm21b.pdf",
+        "extra": "",
+        "slides": "https://www.youtube.com/watch?v=TS0E534MntA",
+        "bibtex": "https://dblp.org/rec/conf/fm/ScottSRMG21.html?view=bibtex",
+        "section": "Refereed Workshop, Short & Tool Papers",
+        "selected": false
+    },
+    {
+        "title": "String Theories involving Regular Membership Predicates: From Practice to Theory and Back",
+        "year": "2021",
+        "venue": {
+            "name": "13th International Conference on Words",
+            "short": "WORDS"
+        },
+        "authors": [
+            {
+                "first": "Murphy",
+                "middle": "",
+                "last": "Berzish"
+            },
+            {
+                "first": "Joel",
+                "middle": "",
+                "last": "Day"
+            },
+            {
+                "first": "Vijay",
+                "middle": "",
+                "last": "Ganesh"
+            },
+            {
+                "first": "Mitja",
+                "middle": "",
+                "last": "Kulczynski"
+            },
+            {
+                "first": "Florin",
+                "middle": "",
+                "last": "Manea"
+            },
+            {
+                "first": "Federico",
+                "middle": "",
+                "last": "Mora"
+            },
+            {
+                "first": "Drik",
+                "middle": "",
+                "last": "Nowotka"
+            }
+        ],
+        "link": "https://arxiv.org/abs/2105.07220",
+        "extra": "",
+        "slides": "https://drive.univ-rouen.fr/f/9904c77d8d444d00a121/",
+        "bibtex": "https://dblp.org/rec/conf/cwords/BerzishDGKMMN21.html?view=bibtex",
+        "section": "Refereed Conference Papers",
+        "selected": false
+    },
+    {
+        "title": "Verification by Gambling on Program Slices",
+        "year": "2021",
+        "venue": {
+            "name": "9th International Symposium on Automated Technology for Verification and Analysis",
+            "short": "ATVA"
+        },
+        "authors": [
+            {
+                "first": "Murad",
+                "middle": "",
+                "last": "Akhundov"
+            },
+            {
+                "first": "Federico",
+                "middle": "",
+                "last": "Mora"
+            },
+            {
+                "first": "Nick",
+                "middle": "",
+                "last": "Feng"
+            },
+            {
+                "first": "Vincent",
+                "middle": "",
+                "last": "Hui"
+            },
+            {
+                "first": "Marsha",
+                "middle": "",
+                "last": "Chechik"
+            }
+        ],
+        "link": "https://people.eecs.berkeley.edu/~fmora/atva21.pdf",
+        "extra": "https://github.com/MuradAkh/Qicc",
+        "slides": "https://people.eecs.berkeley.edu/~fmora/atva21_presentation.pdf",
+        "bibtex": "https://dblp.org/rec/conf/atva/AkhundovMFHC21.html?view=bibtex",
+        "section": "Refereed Conference Papers",
+        "selected": false
+    },
+    {
+        "title": "MedleySolver: Online SMT Algorithm Selection",
+        "year": "2021",
+        "venue": {
+            "name": "24th International Conference on Theory and Applications of Satisfiability Testing",
+            "short": "SAT"
+        },
+        "authors": [
+            {
+                "first": "Nikhil",
+                "middle": "",
+                "last": "Pimpalkhare"
+            },
+            {
+                "first": "Federico",
+                "middle": "",
+                "last": "Mora"
+            },
+            {
+                "first": "Elizabeth",
+                "middle": "",
+                "last": "Polgreen"
+            },
+            {
+                "first": "Sanjit",
+                "middle": "A.",
+                "last": "Seshia"
+            }
+        ],
+        "link": "https://people.eecs.berkeley.edu/~fmora/sat21.pdf",
+        "extra": "https://github.com/uclid-org/medley-solver/tree/SAT2021",
+        "slides": "https://people.eecs.berkeley.edu/~fmora/sat21_presentation.pdf",
+        "bibtex": "https://dblp.org/rec/conf/sat/PimpalkhareMPS21.html?view=bibtex",
+        "section": "Refereed Conference Papers",
+        "selected": true
+    },
+    {
+        "title": "An SMT Solver for Regular Expressions and Linear Arithmetic over String Length",
+        "year": "2021",
+        "venue": {
+            "name": "33rd International Conference on Computer-Aided Verification",
+            "short": "CAV"
+        },
+        "authors": [
+            {
+                "first": "Murphy",
+                "middle": "",
+                "last": "Berzish"
+            },
+            {
+                "first": "Mitja",
+                "middle": "",
+                "last": "Kulczynski"
+            },
+            {
+                "first": "Federico",
+                "middle": "",
+                "last": "Mora"
+            },
+            {
+                "first": "Florin",
+                "middle": "",
+                "last": "Manea"
+            },
+            {
+                "first": "Joel",
+                "middle": "",
+                "last": "Day"
+            },
+            {
+                "first": "Drik",
+                "middle": "",
+                "last": "Nowotka"
+            },
+            {
+                "first": "Vijay",
+                "middle": "",
+                "last": "Ganesh"
+            }
+        ],
+        "link": "https://people.eecs.berkeley.edu/~fmora/cav21.pdf",
+        "extra": "https://figshare.com/s/5ae73a6f3c55f5c5e4c1",
+        "slides": "https://ucl-pplv.github.io/CAV21/poster_P_220/",
+        "bibtex": "https://dblp.org/rec/conf/cav/BerzishKMMDNG20.html?view=bibtex",
+        "section": "Refereed Conference Papers",
+        "selected": true
+    },
+    {
+        "title": "Scaling Client-Specific Equivalence Checking via Impact Boundary Search",
+        "year": "2020",
+        "venue": {
+            "name": "35th IEEE/ACM International Conference on Automated Software Engineering",
+            "short": "ASE"
+        },
+        "authors": [
+            {
+                "first": "Nick",
+                "middle": "",
+                "last": "Feng"
+            },
+            {
+                "first": "Federico",
+                "middle": "",
+                "last": "Mora"
+            },
+            {
+                "first": "Vincent",
+                "middle": "",
+                "last": "Hui"
+            },
+            {
+                "first": "Marsha",
+                "middle": "",
+                "last": "Chechik"
+            }
+        ],
+        "link": "https://people.eecs.berkeley.edu/~fmora/ase20.pdf",
+        "extra": "https://github.com/CC24LIFE/CC2",
+        "slides": "",
+        "bibtex": "https://dblp.org/rec/conf/kbse/FengMHC20.html?view=bibtex",
+        "section": "Refereed Conference Papers",
+        "selected": false
+    },
+    {
+        "title": "BanditFuzz: A Reinforcement-Learning Based Performance Fuzzer for SMT Solvers",
+        "year": "2020",
+        "venue": {
+            "name": "12th Working Conference on Verified Software: Theories, Tools, and Experiments",
+            "short": "VSTTE"
+        },
+        "authors": [
+            {
+                "first": "Joseph",
+                "middle": "",
+                "last": "Scott"
+            },
+            {
+                "first": "Federico",
+                "middle": "",
+                "last": "Mora"
+            },
+            {
+                "first": "Vijay",
+                "middle": "",
+                "last": "Ganesh"
+            }
+        ],
+        "link": "https://people.eecs.berkeley.edu/~fmora/vstte20.pdf",
+        "extra": "https://github.com/j29scott/BanditFuzz_Public",
+        "slides": "https://people.eecs.berkeley.edu/~fmora/smt20_presentation.pdf",
+        "bibtex": "https://dblp.org/rec/conf/vstte/ScottMG20.html?view=bibtex",
+        "section": "Refereed Conference Papers",
+        "selected": false
+    },
+    {
+        "title": "Synthesis in UCLID5",
+        "year": "2020",
+        "venue": {
+            "name": "9th Workshop on Synthesis",
+            "short": "SYNT"
+        },
+        "authors": [
+            {
+                "first": "Federico",
+                "middle": "",
+                "last": "Mora"
+            },
+            {
+                "first": "Kevin",
+                "middle": "",
+                "last": "Cheang"
+            },
+            {
+                "first": "Elizabeth",
+                "middle": "",
+                "last": "Polgreen"
+            },
+            {
+                "first": "Sanjit",
+                "middle": "A.",
+                "last": "Seshia"
+            }
+        ],
+        "link": "https://people.eecs.berkeley.edu/~fmora/synt20.pdf",
+        "extra": "https://github.com/uclid-org/uclid",
+        "slides": "https://people.eecs.berkeley.edu/~fmora/synt20_presentation.pdf",
+        "bibtex": "https://dblp.org/rec/journals/corr/abs-2007-06760.html?view=bibtex",
+        "section": "Refereed Workshop, Short & Tool Papers",
+        "selected": true
+    },
+    {
+        "title": "Client-Specific Equivalence Checking",
+        "year": "2018",
+        "venue": {
+            "name": "33rd IEEE/ACM International Conference on Automated Software Engineering",
+            "short": "ASE"
+        },
+        "authors": [
+            {
+                "first": "Federico",
+                "middle": "",
+                "last": "Mora"
+            },
+            {
+                "first": "Yi",
+                "middle": "",
+                "last": "Li"
+            },
+            {
+                "first": "Julia",
+                "middle": "",
+                "last": "Rubin"
+            },
+            {
+                "first": "Marsha",
+                "middle": "",
+                "last": "Chechik"
+            }
+        ],
+        "link": "https://people.eecs.berkeley.edu/~fmora/ase18.pdf",
+        "extra": "https://github.com/Client-Specific-Equivalence-Checker/CLEVER",
+        "slides": "https://people.eecs.berkeley.edu/~fmora/ase18_presentation.pdf",
+        "bibtex": "https://dblp.org/rec/conf/kbse/Mora0RC18.html?view=bibtex",
+        "section": "Refereed Conference Papers",
+        "selected": true
+    },
+    {
+        "title": "StringFuzz: A Fuzzer for String Solvers",
+        "year": "2018",
+        "venue": {
+            "name": "30th International Conference on Computer-Aided Verification",
+            "short": "CAV"
+        },
+        "authors": [
+            {
+                "first": "Dmitry",
+                "middle": "",
+                "last": "Blotsky"
+            },
+            {
+                "first": "Federico",
+                "middle": "",
+                "last": "Mora"
+            },
+            {
+                "first": "Murphy",
+                "middle": "",
+                "last": "Berzish"
+            },
+            {
+                "first": "Yunhui",
+                "middle": "",
+                "last": "Zheng"
+            },
+            {
+                "first": "Ifaz",
+                "middle": "",
+                "last": "Kabir"
+            },
+            {
+                "first": "Vijay",
+                "middle": "",
+                "last": "Ganesh"
+            }
+        ],
+        "link": "https://people.eecs.berkeley.edu/~fmora/cav18.pdf",
+        "extra": "https://github.com/dblotsky/stringfuzz",
+        "slides": "https://easychair.org/smart-slide/slide/pN13#",
+        "bibtex": "https://dblp.org/rec/conf/cav/BlotskyMBZKG18.html?view=bibtex",
+        "section": "Refereed Workshop, Short & Tool Papers",
+        "selected": true
+    }
+]
