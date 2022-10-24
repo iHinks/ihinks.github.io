@@ -1,6 +1,6 @@
 {
-    "name": "Federico Mora Rocha",
-    "description": "Federico Mora Rocha's academic website. Topics of interest include verification, formal methods, automated reasoning, program synthesis, satisfiability modulo theories (SMT), program analysis, programming languages, and logic",
+    "name": "Isabella Hinks",
+    "description": "Isabella (Izzi) Hinks' academic website. Topics of interest include computer science education, open source science, remote sensing, geocomputation, and sustainable agriculture",
     "favicon": "./images/favicon.png",
-    "tracker": "<script data-goatcounter=\"https://federicoaureliano.goatcounter.com/count\" async src=\"//gc.zgo.at/count.js\"></script>"
+    // "tracker": "<script data-goatcounter=\"https://federicoaureliano.goatcounter.com/count\" async src=\"//gc.zgo.at/count.js\"></script>"
 }
