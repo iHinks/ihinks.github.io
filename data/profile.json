@@ -1,8 +1,8 @@
 {
     "headshot" : "images/Izzi_Hinks.jpg",
-    "about"    : "My name is Federico Mora Rocha. I am a Ph.D. student in computer science at the University of California, Berkeley, where I am advised by Sanjit A. Seshia. Before Berkeley, I completed an M.Sc. in computer science at the University of Toronto, where I  was advised by Marsha Chechik, and a B.Sc. in computer science and mathematics at Mount Allison University.",
-    "research" : "I am interested in formal methods, programming language theory, and machine learning. Specifically, I am excited about languages that theoretically and empirically lend themselves to efficient automated reasoning.",
-    "cv"       : "https://people.eecs.berkeley.edu/~fmora/cv.pdf",
+    "about"    : "My name is Isabella Hinks. I am a Ph.D. student studying Geospatial Analytics at NC State University's Center for Geospatial Analytics, where I am advised by Dr. Josh Gray. Before my Ph.D, I completed B.Sc. degrees in Computer Science and Environmental Science, and a minor in Statistics and Analytics, at UNC Chapel Hill.",
+    "research" : "I develop algorithms to estimate the adaptive potential of small-scale agriculture in poverty-ridden areas. Previously, I used remote sensing algorithms to monitor the rehabilitation of coastal ecosystems in Thailand. I was a founding member of Acta Solutions, a tech start-up that helps local governments optimize decisions using constituent data. More recently, I worked with Curamericas Global to support underserved communities during Covid-19. After my Ph.D, I am excited to introduce computer science and its endless applications to curious and creative minds as a Teaching Professor."
+    "cv"       : "https://www.isabellahinks.com/uploads/Hinks_CV.pdf",
     "email"    : "irhinks@ncsu.edu",
     "scholar"  : "https://scholar.google.com/citations?user=6KDXpH0AAAAJ&hl",
     "website"  : "https://ihinks.github.io"
