@@ -1,6 +1,5 @@
 {
     "name": "Isabella Hinks",
     "description": "Isabella (Izzi) Hinks' academic website. Topics of interest include computer science education, open source science, remote sensing, geocomputation, and sustainable agriculture",
-    "favicon": "./images/favicon.png",
-    // "tracker": "<script data-goatcounter=\"https://federicoaureliano.goatcounter.com/count\" async src=\"//gc.zgo.at/count.js\"></script>"
+    "favicon": "./images/favicon.png"
 }
