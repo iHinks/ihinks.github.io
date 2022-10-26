@@ -1,509 +1,402 @@
 [
     {
-        "title": "UCLID5: Multi-Modal Formal Modeling, Verification, and Synthesis",
+        "title": "Monitoring crop development in smallholder farms using remotely sensed time series data augmentation",
         "year": "2022",
         "venue": {
-            "name": "34th International Conference on Computer-Aided Verification",
-            "short": "CAV"
+            "name": "In preparation",
+            "short": "In prep."
         },
         "authors": [
             {
-                "first": "Elizabeth",
+                "first": "Isabella",
                 "middle": "",
-                "last": "Polgreen"
+                "last": "Hinks"
             },
             {
-                "first": "Kevin",
-                "middle": "",
-                "last": "Cheang"
+                "first": "Josh",
+                "middle": "M.",
+                "last": "Gray"
             },
             {
-                "first": "Pranav",
-                "middle": "",
-                "last": "Gaddamadugu"
+                "first": "Brian",
+                "middle": "J.",
+                "last": "Reich"
             },
             {
-                "first": "Adwait",
+                "first": "Xiaojie",
                 "middle": "",
-                "last": "Godbole"
+                "last": "Gao"
             },
             {
-                "first": "Kevin",
+                "first": "Meha",
                 "middle": "",
-                "last": "Laeufer"
-            },
-            {
-                "first": "Shaokai",
-                "middle": "",
-                "last": "Lin"
-            },
-            {
-                "first": "Yatin",
-                "middle": "",
-                "last": "Manerkar"
-            },
-            {
-                "first": "Federico",
-                "middle": "",
-                "last": "Mora"
-            },
-            {
-                "first": "Sanjit",
-                "middle": "A.",
-                "last": "Seshia"
+                "last": "Jain"
             }
         ],
-        "link": "https://arxiv.org/abs/2208.03699",
-        "extra": "https://github.com/uclid-org/uclid",
-        "slides": "https://easychair.org/smart-slide/slide/SJtw",
-        "bibtex": "https://dblp.org/rec/conf/cav/PolgreenCGGLLMM22.html?view=bibtex",
-        "section": "Refereed Workshop, Short & Tool Papers",
+        "link": "",
+        "bibtex": "",
+        "section": "Publications",
         "selected": true
     },
     {
-        "title": "Z3str4: A Multi-armed String Solver",
-        "year": "2021",
+        "title": "Delineating smallholder fields from satellite imagery using spatio-temporal convolutional networks",
+        "year": "2022",
         "venue": {
-            "name": "24th International Symposium on Formal Methods",
-            "short": "FM"
+            "name": "In preparation",
+            "short": "In prep."
         },
         "authors": [
             {
-                "first": "Federico",
+                "first": "Isabella",
                 "middle": "",
-                "last": "Mora"
+                "last": "Hinks"
             },
             {
-                "first": "Murphy",
-                "middle": "",
-                "last": "Berzish"
+                "first": "Josh",
+                "middle": "M.",
+                "last": "Gray"
             },
             {
-                "first": "Mitja",
+                "first": "Meha",
                 "middle": "",
-                "last": "Kulczynski"
-            },
-            {
-                "first": "Drik",
-                "middle": "",
-                "last": "Nowotka"
-            },
-            {
-                "first": "Vijay",
-                "middle": "",
-                "last": "Ganesh"
+                "last": "Jain"
             }
         ],
-        "link": "https://people.eecs.berkeley.edu/~fmora/fm21a.pdf",
-        "extra": "https://z3str4.github.io/",
-        "slides": "https://people.eecs.berkeley.edu/~fmora/fm21a_presentation.pdf",
-        "bibtex": "https://dblp.org/rec/conf/fm/MoraBKNG21.html?view=bibtex",
-        "section": "Refereed Conference Papers",
-        "selected": true
-    },
-    {
-        "title": "BanditFuzz: Fuzzing SMT Solvers with Multi-Agent Reinforcement Learning",
-        "year": "2021",
-        "venue": {
-            "name": "24th International Symposium on Formal Methods",
-            "short": "FM"
-        },
-        "authors": [
-            {
-                "first": "Joseph",
-                "middle": "",
-                "last": "Scott"
-            },
-            {
-                "first": "Trishal",
-                "middle": "",
-                "last": "Sudula"
-            },
-            {
-                "first": "Hammad",
-                "middle": "",
-                "last": "Rehman"
-            },
-            {
-                "first": "Federico",
-                "middle": "",
-                "last": "Mora"
-            },
-            {
-                "first": "Vijay",
-                "middle": "",
-                "last": "Ganesh"
-            }
-        ],
-        "link": "https://people.eecs.berkeley.edu/~fmora/fm21b.pdf",
-        "extra": "",
-        "slides": "https://www.youtube.com/watch?v=TS0E534MntA",
-        "bibtex": "https://dblp.org/rec/conf/fm/ScottSRMG21.html?view=bibtex",
-        "section": "Refereed Workshop, Short & Tool Papers",
+        "link": "",
+        "bibtex": "",
+        "section": "Publications",
         "selected": false
     },
     {
-        "title": "String Theories involving Regular Membership Predicates: From Practice to Theory and Back",
-        "year": "2021",
+        "title": "Using Deep Learning and Very-High-Resolution Imagery to Map Smallholder Field Boundaries",
+        "year": "2022",
         "venue": {
-            "name": "13th International Conference on Words",
-            "short": "WORDS"
+            "name": "Remote Sensing",
+            "short": "Remote Sens."
         },
         "authors": [
             {
-                "first": "Murphy",
+                "first": "Weiye",
                 "middle": "",
-                "last": "Berzish"
+                "last": "Mei"
             },
             {
-                "first": "Joel",
+                "first": "Haoyu",
                 "middle": "",
-                "last": "Day"
+                "last": "Wang"
             },
             {
-                "first": "Vijay",
+                "first": "David",
                 "middle": "",
-                "last": "Ganesh"
+                "last": "Fouhey"
             },
             {
-                "first": "Mitja",
+                "first": "Weiqi",
                 "middle": "",
-                "last": "Kulczynski"
+                "last": "Zhou"
             },
             {
-                "first": "Florin",
+                "first": "Isabella",
                 "middle": "",
-                "last": "Manea"
+                "last": "Hinks"
             },
             {
-                "first": "Federico",
-                "middle": "",
-                "last": "Mora"
+                "first": "Josh",
+                "middle": "M.",
+                "last": "Gray"
             },
             {
-                "first": "Drik",
+                "first": "Derek",
                 "middle": "",
-                "last": "Nowotka"
+                "last": "Van Berkel"
+            },
+            {
+                "first": "Meha",
+                "middle": "",
+                "last": "Jain"
             }
         ],
-        "link": "https://arxiv.org/abs/2105.07220",
-        "extra": "",
-        "slides": "https://drive.univ-rouen.fr/f/9904c77d8d444d00a121/",
-        "bibtex": "https://dblp.org/rec/conf/cwords/BerzishDGKMMN21.html?view=bibtex",
-        "section": "Refereed Conference Papers",
-        "selected": false
-    },
-    {
-        "title": "Verification by Gambling on Program Slices",
-        "year": "2021",
-        "venue": {
-            "name": "9th International Symposium on Automated Technology for Verification and Analysis",
-            "short": "ATVA"
-        },
-        "authors": [
-            {
-                "first": "Murad",
-                "middle": "",
-                "last": "Akhundov"
-            },
-            {
-                "first": "Federico",
-                "middle": "",
-                "last": "Mora"
-            },
-            {
-                "first": "Nick",
-                "middle": "",
-                "last": "Feng"
-            },
-            {
-                "first": "Vincent",
-                "middle": "",
-                "last": "Hui"
-            },
-            {
-                "first": "Marsha",
-                "middle": "",
-                "last": "Chechik"
-            }
-        ],
-        "link": "https://people.eecs.berkeley.edu/~fmora/atva21.pdf",
-        "extra": "https://github.com/MuradAkh/Qicc",
-        "slides": "https://people.eecs.berkeley.edu/~fmora/atva21_presentation.pdf",
-        "bibtex": "https://dblp.org/rec/conf/atva/AkhundovMFHC21.html?view=bibtex",
-        "section": "Refereed Conference Papers",
-        "selected": false
-    },
-    {
-        "title": "MedleySolver: Online SMT Algorithm Selection",
-        "year": "2021",
-        "venue": {
-            "name": "24th International Conference on Theory and Applications of Satisfiability Testing",
-            "short": "SAT"
-        },
-        "authors": [
-            {
-                "first": "Nikhil",
-                "middle": "",
-                "last": "Pimpalkhare"
-            },
-            {
-                "first": "Federico",
-                "middle": "",
-                "last": "Mora"
-            },
-            {
-                "first": "Elizabeth",
-                "middle": "",
-                "last": "Polgreen"
-            },
-            {
-                "first": "Sanjit",
-                "middle": "A.",
-                "last": "Seshia"
-            }
-        ],
-        "link": "https://people.eecs.berkeley.edu/~fmora/sat21.pdf",
-        "extra": "https://github.com/uclid-org/medley-solver/tree/SAT2021",
-        "slides": "https://people.eecs.berkeley.edu/~fmora/sat21_presentation.pdf",
-        "bibtex": "https://dblp.org/rec/conf/sat/PimpalkhareMPS21.html?view=bibtex",
-        "section": "Refereed Conference Papers",
+        "link": "https://www.mdpi.com/2072-4292/14/13/3046",
+        "bibtex": "https://www.mdpi.com/2072-4292/14/13/3046#cite",
+        "section": "Publications",
         "selected": true
     },
     {
-        "title": "An SMT Solver for Regular Expressions and Linear Arithmetic over String Length",
-        "year": "2021",
-        "venue": {
-            "name": "33rd International Conference on Computer-Aided Verification",
-            "short": "CAV"
-        },
-        "authors": [
-            {
-                "first": "Murphy",
-                "middle": "",
-                "last": "Berzish"
-            },
-            {
-                "first": "Mitja",
-                "middle": "",
-                "last": "Kulczynski"
-            },
-            {
-                "first": "Federico",
-                "middle": "",
-                "last": "Mora"
-            },
-            {
-                "first": "Florin",
-                "middle": "",
-                "last": "Manea"
-            },
-            {
-                "first": "Joel",
-                "middle": "",
-                "last": "Day"
-            },
-            {
-                "first": "Drik",
-                "middle": "",
-                "last": "Nowotka"
-            },
-            {
-                "first": "Vijay",
-                "middle": "",
-                "last": "Ganesh"
-            }
-        ],
-        "link": "https://people.eecs.berkeley.edu/~fmora/cav21.pdf",
-        "extra": "https://figshare.com/s/5ae73a6f3c55f5c5e4c1",
-        "slides": "https://ucl-pplv.github.io/CAV21/poster_P_220/",
-        "bibtex": "https://dblp.org/rec/conf/cav/BerzishKMMDNG20.html?view=bibtex",
-        "section": "Refereed Conference Papers",
-        "selected": true
-    },
-    {
-        "title": "Scaling Client-Specific Equivalence Checking via Impact Boundary Search",
+        "title": "An integrated assessment of particulate respirators used as personal protection from ambient air pollution in Bangkok, Thailand",
         "year": "2020",
         "venue": {
-            "name": "35th IEEE/ACM International Conference on Automated Software Engineering",
-            "short": "ASE"
+            "name": "Journal of Global Health",
+            "short": "J. Glob. Health"
         },
         "authors": [
             {
-                "first": "Nick",
-                "middle": "",
-                "last": "Feng"
+                "first": "Kennedy",
+                "middle": "L.",
+                "last": "McGuinness"
             },
             {
-                "first": "Federico",
+                "first": "Isabella",
                 "middle": "",
-                "last": "Mora"
+                "last": "Hinks"
             },
             {
-                "first": "Vincent",
-                "middle": "",
-                "last": "Hui"
+                "first": "Katherine",
+                "middle": "E.",
+                "last": "Westcott"
             },
             {
-                "first": "Marsha",
-                "middle": "",
-                "last": "Chechik"
+                "first": "Shabbir",
+                "middle": "E.",
+                "last": "Gheewala"
             }
         ],
-        "link": "https://people.eecs.berkeley.edu/~fmora/ase20.pdf",
-        "extra": "https://github.com/CC24LIFE/CC2",
-        "slides": "",
-        "bibtex": "https://dblp.org/rec/conf/kbse/FengMHC20.html?view=bibtex",
-        "section": "Refereed Conference Papers",
+        "link": "https://www.joghr.org/article/14598-an-integrated-assessment-of-particulate-respirators-used-as-personal-protection-from-ambient-air-pollution-in-bangkok-thailand",
+        "bibtex": "https://www.joghr.org/api/v1/articles/14598-an-integrated-assessment-of-particulate-respirators-used-as-personal-protection-from-ambient-air-pollution-in-bangkok-thailand.bibtex",
+        "section": "Publications",
         "selected": false
     },
     {
-        "title": "BanditFuzz: A Reinforcement-Learning Based Performance Fuzzer for SMT Solvers",
+        "title": "A history of the rehabilitation of mangroves and an assessment of their diversity and structure using Landsat annual composites (1987–2019) and transect plot inventories",
         "year": "2020",
         "venue": {
-            "name": "12th Working Conference on Verified Software: Theories, Tools, and Experiments",
-            "short": "VSTTE"
+            "name": "Forest Ecology and Management",
+            "short": "For. Ecol. Manag."
         },
         "authors": [
             {
-                "first": "Joseph",
+                "first": "Uday",
                 "middle": "",
-                "last": "Scott"
+                "last": "Pimple"
             },
             {
-                "first": "Federico",
+                "first": "Dario",
                 "middle": "",
-                "last": "Mora"
+                "last": "Simonetti"
             },
             {
-                "first": "Vijay",
+                "first": "Isabella",
                 "middle": "",
-                "last": "Ganesh"
+                "last": "Hinks"
+            },
+            {
+                "first": "Johan",
+                "middle": "",
+                "last": "Oszwald"
+            },
+            {
+                "first": "Uta",
+                "middle": "",
+                "last": "Berger"
+            },
+            {
+                "first": "Sukan",
+                "middle": "",
+                "last": "Pungkul"
+            },
+            {
+                "first": "Kumron",
+                "middle": "",
+                "last": "Leadprathom"
+            },
+            {
+                "first": "Tamanai",
+                "middle": "",
+                "last": "Pravinvongvuthi"
+            },
+            {
+                "first": "Pasin",
+                "middle": "",
+                "last": "Maprasoap"
+            },
+            {
+                "first": "Valery",
+                "middle": "",
+                "last": "Gond"
             }
         ],
-        "link": "https://people.eecs.berkeley.edu/~fmora/vstte20.pdf",
-        "extra": "https://github.com/j29scott/BanditFuzz_Public",
-        "slides": "https://people.eecs.berkeley.edu/~fmora/smt20_presentation.pdf",
-        "bibtex": "https://dblp.org/rec/conf/vstte/ScottMG20.html?view=bibtex",
-        "section": "Refereed Conference Papers",
-        "selected": false
-    },
-    {
-        "title": "Synthesis in UCLID5",
-        "year": "2020",
-        "venue": {
-            "name": "9th Workshop on Synthesis",
-            "short": "SYNT"
-        },
-        "authors": [
-            {
-                "first": "Federico",
-                "middle": "",
-                "last": "Mora"
-            },
-            {
-                "first": "Kevin",
-                "middle": "",
-                "last": "Cheang"
-            },
-            {
-                "first": "Elizabeth",
-                "middle": "",
-                "last": "Polgreen"
-            },
-            {
-                "first": "Sanjit",
-                "middle": "A.",
-                "last": "Seshia"
-            }
-        ],
-        "link": "https://people.eecs.berkeley.edu/~fmora/synt20.pdf",
-        "extra": "https://github.com/uclid-org/uclid",
-        "slides": "https://people.eecs.berkeley.edu/~fmora/synt20_presentation.pdf",
-        "bibtex": "https://dblp.org/rec/journals/corr/abs-2007-06760.html?view=bibtex",
-        "section": "Refereed Workshop, Short & Tool Papers",
+        "link": "https://www-sciencedirect-com.prox.lib.ncsu.edu/science/article/pii/S037811271932105X?via%3Dihub",
+        "bibtex": "",
+        "section": "Publications",
         "selected": true
     },
     {
-        "title": "Client-Specific Equivalence Checking",
-        "year": "2018",
+        "title": "Monitoring Smallholder Agriculture at Scale with Convolutional Networks and Data Augmentation (presentation)",
+        "year": "2022",
         "venue": {
-            "name": "33rd IEEE/ACM International Conference on Automated Software Engineering",
-            "short": "ASE"
+            "name": "American Geophysical Union Fall Meeting 2022",
+            "short": "AGU"
         },
         "authors": [
             {
-                "first": "Federico",
+                "first": "Isabella",
                 "middle": "",
-                "last": "Mora"
+                "last": "Hinks"
             },
             {
-                "first": "Yi",
-                "middle": "",
-                "last": "Li"
-            },
-            {
-                "first": "Julia",
-                "middle": "",
-                "last": "Rubin"
-            },
-            {
-                "first": "Marsha",
-                "middle": "",
-                "last": "Chechik"
+                "first": "Josh",
+                "middle": "M.",
+                "last": "Gray"
             }
         ],
-        "link": "https://people.eecs.berkeley.edu/~fmora/ase18.pdf",
-        "extra": "https://github.com/Client-Specific-Equivalence-Checker/CLEVER",
-        "slides": "https://people.eecs.berkeley.edu/~fmora/ase18_presentation.pdf",
-        "bibtex": "https://dblp.org/rec/conf/kbse/Mora0RC18.html?view=bibtex",
-        "section": "Refereed Conference Papers",
+        "link": "https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1151876",
+        "bibtex": "",
+        "section": "Conference Presentations",
         "selected": true
     },
     {
-        "title": "StringFuzz: A Fuzzer for String Solvers",
-        "year": "2018",
+        "title": "Sowtime: Climate Adaptive Agriculture in the Eastern Gangetic Plains (poster)",
+        "year": "2022",
         "venue": {
-            "name": "30th International Conference on Computer-Aided Verification",
-            "short": "CAV"
+            "name": "NASA LCLUC Science Team Meeting",
+            "short": "NASA LCLUC Team Meeting"
         },
         "authors": [
             {
-                "first": "Dmitry",
-                "middle": "",
-                "last": "Blotsky"
+                "first": "Josh",
+                "middle": "M.",
+                "last": "Gray"
             },
             {
-                "first": "Federico",
+                "first": "Isabella",
                 "middle": "",
-                "last": "Mora"
+                "last": "Hinks"
             },
             {
-                "first": "Murphy",
+                "first": "Meha",
                 "middle": "",
-                "last": "Berzish"
+                "last": "Jain"
             },
             {
-                "first": "Yunhui",
+                "first": "Singh",
                 "middle": "",
-                "last": "Zheng"
+                "last": "Balwinder"
             },
             {
-                "first": "Ifaz",
+                "first": "Arun",
                 "middle": "",
-                "last": "Kabir"
+                "last": "Agrawal"
             },
             {
-                "first": "Vijay",
+                "first": "Asif",
                 "middle": "",
-                "last": "Ganesh"
+                "last": "Ishtiaque"
             }
         ],
-        "link": "https://people.eecs.berkeley.edu/~fmora/cav18.pdf",
-        "extra": "https://github.com/dblotsky/stringfuzz",
-        "slides": "https://easychair.org/smart-slide/slide/pN13#",
-        "bibtex": "https://dblp.org/rec/conf/cav/BlotskyMBZKG18.html?view=bibtex",
-        "section": "Refereed Workshop, Short & Tool Papers",
+        "link": "https://lcluc.umd.edu/meetings/2021-22-nasa-lcluc-science-team-meeting-silver-jubilee-celebration",
+        "bibtex": "",
+        "section": "Conference Presentations",
+        "selected": true
+    },
+    {
+        "title": "Monitoring Crop Development in Smallholder Farms Using Remotely Sensed Time Series Data Augmentation (presentation)",
+        "year": "2021",
+        "venue": {
+            "name": "American Geophysical Union Fall Meeting 2021",
+            "short": "AGU"
+        },
+        "authors": [
+            {
+                "first": "Isabella",
+                "middle": "",
+                "last": "Hinks"
+            },
+            {
+                "first": "Josh",
+                "middle": "M.",
+                "last": "Gray"
+            }
+        ],
+        "link": "https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/829623",
+        "bibtex": "",
+        "section": "Conference Presentations",
+        "selected": true
+    },
+    {
+        "title": "The blsp R package with a Bayesian land surface phenology model (1.0)",
+        "year": "2022",
+        "venue": {
+            "name": "Zenodo",
+            "short": "Zenodo"
+        },
+        "authors": [
+            {
+                "first": "Xiaojie",
+                "middle": "",
+                "last": "Gao"
+            },
+            {
+                "first": "Ian",
+                "middle": "R.",
+                "last": "McGregor"
+            },
+            {
+                "first": "Owen",
+                "middle": "",
+                "last": "Smith"
+            },
+            {
+                "first": "Isabella",
+                "middle": "",
+                "last": "Hinks"
+            },
+            {
+                "first": "Matt",
+                "middle": "",
+                "last": "Shisler"
+            }
+        ],
+        "link": "https://github.com/ncsuSEAL/Bayesian_LSP",
+        "bibtex": "https://zenodo.org/record/6824017/export/hx#.Y1mPe-zMJQI",
+        "section": "Packages",
+        "selected": true
+    },
+    {
+        "title": "porder: Simple CLI for Planet ordersV2 API (0.8.3)",
+        "year": "2021",
+        "venue": {
+            "name": "Zenodo",
+            "short": "Zenodo"
+        },
+        "authors": [
+            {
+                "first": "Samapriya",
+                "middle": "",
+                "last": "Roy"
+            },
+            {
+                "first": "Tyson",
+                "middle": "L.",
+                "last": "Swetnam"
+            },
+            {
+                "first": "Isabella",
+                "middle": "",
+                "last": "Hinks"
+            },
+            {
+                "first": "Ryan",
+                "middle": "",
+                "last": "Avery"
+            },
+            {
+                "first": "David",
+                "middle": "",
+                "last": "Shean"
+            },
+            {
+                "first": "Anthony",
+                "middle": "",
+                "last": "Lukach"
+            },
+            {
+                "first": "Scott",
+                "middle": "",
+                "last": "Henderson"
+            }
+        ],
+        "link": "https://github.com/tyson-swetnam/porder",
+        "bibtex": "https://zenodo.org/record/5079783/export/hx",
+        "section": "Packages",
         "selected": true
     }
 ]

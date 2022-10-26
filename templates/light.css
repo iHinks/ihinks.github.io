@@ -8,10 +8,14 @@ header {
 
 body {
     background-color: background-color-placeholder;
-    color: font-color-placeholder;
+    color: font-color;
 }
 
 .paper-icon-dark {
+    display: None;
+}
+
+.headshot-img-dark {
     display: None;
 }
 

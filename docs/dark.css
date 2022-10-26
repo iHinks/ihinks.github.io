@@ -3,7 +3,7 @@ header {
 }
 
 #scroller {
-    background-color: #3B7EA1;
+    background-color: #F6B144;
 }
 
 body {
@@ -22,7 +22,7 @@ a {
 }
 
 a:hover {
-    color: #3B7EA1;
+    color: #F6B144;
 }
 
 .hbar {
@@ -35,5 +35,9 @@ h3 {
 }
 
 .paper-icon {
+    display: None;
+}
+
+.headshot-img {
     display: None;
 }

@@ -1,10 +1,98 @@
 [
     {
+        "date": "10/2022",
+        "text": "I will give an <a href=\"https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1151876\">oral presentation</a> at AGU '22"
+    },
+    {
+        "date": "10/2022",
+        "text": "Dr. Josh Gray presented a poster about our computationally-intensive smallholder agriculture research at the '21-'22 NASA LCLUC Science Team Meeting and Silver Jubilee Celebration"
+    },
+    {
+        "date": "07/2022",
+        "text": "I began giving guest lectures about computer science, remote sensing, agriculture, and climate change for Skype a Scientist"
+    },
+    {
+        "date": "05/2022",
+        "text": "I became the Co-President of the Geospatial Graduate Student Organization at NC State University"
+    },
+    {
+        "date": "04/2022",
+        "text": "I became a member of the Center for Geospatial Analytics' Development Committee"
+    },
+    {
+        "date": "04/2022",
+        "text": "I became a member of the College of Natural Resources' Graduate Student DEI Coalition"
+    },
+    {
+        "date": "02/2022",
+        "text": "I mentored female and non-binary students through their programming projects at Pearl Hacks '22"
+    },
+    {
         "date": "01/2022",
         "text": "I wrote a guest post about <a href=\"https://cnr.ncsu.edu/geospatial/news/2022/01/20/efficiently-monitoring-small-farms-from-space/\">efficiently monitoring small farms from space</a> for the Center for Geospatial Analytics"
     },
     {
+        "date": "12/2021",
+        "text": "I gave an <a href=\"https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/829623\">oral presentation</a> at AGU '21"
+    },
+    {
+        "date": "10/2021",
+        "text": "I guest lectured for Dr. Josh Gray's Earth from Space (ES 113) and Geospatial Data Mining (GIS 713) courses"
+    },
+    {
+        "date": "09/2021",
+        "text": "I became a Graduate Career Mentor for NC State University's College of Natural Resources"
+    },
+    {
+        "date": "08/2021",
+        "text": "I won a the Center for Geospatial Analytics' Travel Award to partially fund my expenses to present at AGU '21"
+    },
+    {
+        "date": "06/2021",
+        "text": "I taught the Google Earth Engine portion of a workshop on remote sensing for the CATALYST program for disabled high schoolers"
+    },
+    {
+        "date": "02/2021",
+        "text": "I mentored female and non-binary students through their programming projects at Pearl Hacks '21"
+    },
+    {
+        "date": "11/2020",
+        "text": "I taught a workshop for the NC Math and Science Education Network's STEM Day for K-12 students"
+    },
+    {
+        "date": "05/2020",
+        "text": "I became a Mentor for Rewriting the Code"
+    },
+    {
+        "date": "01/2020",
+        "text": "I served as a Learning Assistant and helped Dr. Brian White pilot his course, Data Science for Earth (COMP 590), at UNC Chapel Hill"
+    },
+    {
+        "date": "08/2019",
+        "text": "I became a Head Undergraduate Teaching Assistant for COMP 110 at UNC Chapel Hill"
+    },
+    {
+        "date": "01/2019",
+        "text": "I was accepted into the Ph.D. in Geospatial Analytics program at NC State University"
+    },
+    {
+        "date": "08/2018",
+        "text": "A tech startup I co-founded, Acta Solutions (formerly demos), was awarded the Robert E. Bryan Fellowship"
+    },
+    {
         "date": "06/2018",
-        "text": "I co-wrote a piece for Rewriting the Code about <a href=\"https://rewritingthecode.org/the-power-of-outreach-to-increase-diversity-in-computer-science/\">the importance of outreach to boost diversity in computer science</a>!"
+        "text": "I co-wrote a piece about <a href=\"https://rewritingthecode.org/the-power-of-outreach-to-increase-diversity-in-computer-science/\">the importance of outreach to boost diversity in computer science</a> for Rewriting the Code"
+    },
+    {
+        "date": "08/2017",
+        "text": "I became a Teaching Assistant for Girls Who Code at UNC Chapel Hill"
+    },
+    {
+        "date": "01/2017",
+        "text": "I became an Undergraduate Teaching Assistant for Kris Jordan's Intro to Programming (COMP 110) courses at UNC Chapel Hill"
+    },
+    {
+        "date": "08/2016",
+        "text": "I was awarded the Carolina Scholarship, a merit-based scholarship at UNC Chapel Hill"
     }
 ]

@@ -93,14 +93,85 @@ a {
     font-size: smaller;
 }
 
+/* Start blobs */
+.blob {
+    position: fixed;
+    top: 30%;
+    left: 105%;
+    fill: #D05F31;
+    width: 35vmax;
+    z-index: -1;
+    /* animation: move 10000s ease-in-out infinite; */
+    transform-origin: 30% 30%;
+    transform: rotate(190deg);
+}
+
+.blob2 {
+    position: fixed;
+    top: 70%;
+    left: 5%;
+    fill: #42A677;
+    width: 10vmax;
+    z-index: -1;
+    /* animation: move 10070s ease-in-out infinite; */
+    transform-origin: 30% 25%;
+    transform: rotate(40deg);
+}
+
+.blob3 {
+    position: absolute;
+    top: 7%;
+    left: 20%;
+    fill: #F6B144;
+    width: 5vmax;
+    z-index: -1;
+    /* animation: move1 10800s ease-in-out infinite; */
+    transform-origin: 10% 80%;
+}
+
+.blob4 {
+    position: fixed;
+    /* top: 15%;
+    left: -10%; */    
+    top: -5%;
+    left: -5%;
+    fill: #333E8C;
+    width: 15vmax;
+    z-index: -1;
+    /* animation: move 280s ease-in-out infinite; */
+    transform-origin: 60% 20%;
+    transform: rotate(100deg);
+}
+
+@keyframes move {
+    0%   { transform: scale(1)   translate(10px, -30px); }
+    38%  { transform: scale(1) translate(80vw, 30vh) rotate(160deg); }
+    40%  { transform: scale(1) translate(80vw, 30vh) rotate(160deg); }
+    78%  { transform: scale(1) translate(0vw, 50vh) rotate(-20deg); }
+    80%  { transform: scale(1) translate(0vw, 50vh) rotate(-20deg); }
+    100% { transform: scale(1)   translate(10px, -30px); }
+}
+
+@keyframes move1 {
+    0%   { transform: scale(1)   translate(30%, -28%); }
+    38%  { transform: scale(1) translate(2%, -2%) rotate(160deg); }
+    40%  { transform: scale(1) translate(40%, 3%) rotate(160deg); }
+    78%  { transform: scale(1) translate(2%, 1%) rotate(-20deg); }
+    80%  { transform: scale(1) translate(-19%, 22%) rotate(-20deg); }
+    100% { transform: scale(1)   translate(22%, -24%); }
+}
+
+/* End blobs */
+
 /* Start Profile */
-.headshot {
+.headshot-img, .headshot-img-dark {
     padding-top: 1.25em;
     padding-right: 1em;
     padding-bottom: 0em;
     width: 36%;
     max-width: 235px;
     float: left;
+    /* border-radius: 80px 0px 80px 0px; */
 }
 
 /* End Profile */
@@ -290,3 +361,90 @@ input:checked + .slider:before {
 .slider.round:before {
     border-radius: 50%;
 }
+
+/* Create equal columns that float next to each other */
+.column {
+    float: left;
+    text-align: right;
+    width: 18%;
+    font-size: 12px;
+  }
+
+/* Start Profile */
+.left_col {
+    width: 36%;
+    /* max-width: 235px; */
+    float: left;
+    text-align: left;
+    font-size: 29px;  
+}
+
+.right_col {
+    padding-top: 4.5em;
+    width: 64%;
+    max-width: 640;
+    float: right;
+    text-align: right;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.right_col:nth-of-type(2) a {
+    font-size: 12px;
+    padding: 10px;
+}
+
+.right_col:nth-of-type(2) a:hover {
+    font-size: 18px;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive layout - when the screen is less than 640px wide, make the  columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 640px) {
+    .column {
+      width: 100%;
+      text-align: center;
+    }
+
+    .left_col {
+        width: 100%;
+        text-align: center;
+      }
+
+    .right_col {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Change the blob layout to not cover too much text */
+    .blob { /* orange */
+        top: 13%;
+        left: 116%;    
+        position: absolute;
+}
+
+    .blob2 { /* green */
+        top: 22%;
+        left: -10%;    
+        position: absolute;
+}
+
+    .blob3 { /* yellow */
+        top: 7%;
+        left: 16%;    
+        position: absolute;
+}
+
+    .blob4 { /* blue */
+        display: none;
+    }
+  }

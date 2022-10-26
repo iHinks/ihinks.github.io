@@ -195,9 +195,9 @@ def header(has_dark):
         button = """<label class="switch-mode">
     <input type="checkbox" id="mode">
     <span class="slider round"></span>
-</label>
-<script src="mode.js"></script>
-"""
+    </label>
+    <script src="mode.js"></script>
+    """
     else:
         button = ""
 
@@ -395,24 +395,48 @@ def build_pubs(pubs: List[Dict[str, str]], full: bool):
 
     return pubs_html
 
+def build_name_header(profile: Dict[str, str]):
 
-def build_profile(profile: Dict[str, str]):
+    # Name at top
+    #name_header_html = '<div class="name">\n' # name at top
+    #name_header_html += '<h1>' + profile["name"] + '</h1>\n'
+    #name_header_html += "</div>\n"  # close name div
+
+    # Menu of main links under name
+    name_header_html = '<div class="main_links">\n' # main links
+    name_header_html += '<div class="row">\n' # start single row
+    name_header_html += '<div class="left_col"> <h1>' + profile["name"] + '</h1> </div>' # name
+    name_header_html += '<div class="right_col">\n' 
+    name_header_html += '<h1><a href="%s">CV</a>' % profile["cv"] + ' | ' + '<a href="%s">Google Scholar</a>' % profile["scholar"] + ' | ' + '<a href="%s">GitHub</a>' % profile["github"] + ' | ' + '<a href="mailto:%s">email</a>' % profile["email"] + '</h1>\n'
+    # name_header_html += '<object width="800px" height="400px" data="https://s3.amazonaws.com/dq-blog-files/pandas-cheat-sheet.pdf"></object>'
+    # name_header_html += '<script src="https://coolors.co/palette-widget/widget.js"></script><script data-id="02654346318810674">new CoolorsPaletteWidget("02654346318810674", ["F6F0DE","C65B30","42A677","333E8C","F6B144"]); </script>'
+    # name_header_html += '<h1><a href="%s">CV</a>' % profile["cv"] + '</h1>' +  '<h1><a href="%s"> | Google Scholar</a>' % profile["scholar"] + '</h1>' + '<h1><a href="%s"> | GitHub</a>' % profile["github"] + '</h1>' + '<h1><a href="%s"> | Email</a>' % profile["email"] + '</h1>\n'
+    name_header_html += '</div>\n' # CV link
+    # name_header_html += '<div class="column">\n' + '<h1><a href="%s">CV</a>' % profile["cv"] + '</h1> </div>\n' # CV link
+    # name_header_html += '<div class="column">\n' + '<h1><a href="%s">Google Scholar</a>' % profile["scholar"] + '</h1> </div>\n' # Google Scholar link
+    # name_header_html += '<div class="column">\n' + '<h1><a href="%s">GitHub</a>' % profile["github"] + '</h1> </div>\n' # GitHub link
+    # name_header_html += '<div class="column">\n' + '<h1><a href="%s">Email</a>' % profile["email"] + '</h1> </div>\n' # Email link
+    name_header_html += "</div>\n"  # close rows
+    name_header_html += "</div>\n"  # close main links
+
+    return name_header_html
+
+def build_profile(profile: Dict[str, str], style: Dict[str, str]):
     profile_html = '<div class="profile">\n'
     profile_html += (
-        '<img class="headshot" src="%s" alt="Headshot"/>\n' % profile["headshot"]
+        '<img class="headshot-img" src="%s" alt="Headshot"/><img class="headshot-img-dark" src="%s" alt="Headshot"/>\n' % (style["headshot-img"], style["headshot-img-dark"])
     )
     profile_html += "<p>" + "</p><p>".join(profile["about"].split("\n")) + "</p>"
     if "research" in profile:
         profile_html += "<p>" + "</p><p>".join(profile["research"].split("\n")) + "</p>"
-    profile_html += "\n<p>Here is my "
-    profile_html += '<a href="%s">CV</a> and ' % profile["cv"]
-    profile_html += '<a href="%s">Google Scholar</a>. ' % profile["scholar"]
-    profile_html += "You can reach me at %s." % profile["email"]
-    profile_html += "</p>\n"  # close description paragraph
+    # profile_html += "\n<p>Here is my "
+    # profile_html += '<a href="%s">CV</a> and ' % profile["cv"]
+    # profile_html += '<a href="%s">Google Scholar</a>. ' % profile["scholar"]
+    # profile_html += "You can reach me at %s." % profile["email"]
+    # profile_html += "</p>\n"  # close description paragraph
     profile_html += "</div>\n"  # close profile
 
     return profile_html
-
 
 def add_notes(html: str, notes: Dict[str, str]):
     status("\nAdding notes:", 2)
@@ -473,6 +497,14 @@ def add_links(html: str, links: Dict[str, str]):
 
     return html
 
+#     <!-- This SVG is from https://codepen.io/Ali_Farooq_/pen/gKOJqx -->
+def add_blobs(style: Dict[str, str]): 
+    blob_html = '<div class="blob"><svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 350"><path d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z"/></svg></div>'
+    blob_html += '<div class="blob2"><svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 350"><path d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z"/></svg></div>'
+    blob_html += '<div class="blob3"><svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 350"><path d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z"/></svg></div>'
+    blob_html += '<div class="blob4"><svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 350"><path d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z"/></svg></div>'
+    return blob_html
+
 
 def build_index(
     profile_json: Dict[str, str],
@@ -484,8 +516,10 @@ def build_index(
 ):
     body_html = "<body>\n"
     body_html += header(has_dark)
+    body_html += add_blobs(style_json)
     body_html += '<div class="content">\n'
-    body_html += build_profile(profile_json)
+    body_html += build_name_header(profile_json)
+    body_html += build_profile(profile_json, style_json)
     body_html += build_news(news_json, 5, False)
     body_html += build_pubs(pubs_json, False)
     body_html += "</div>\n"
@@ -625,6 +659,7 @@ if __name__ == "__main__":
     fill_if_missing(style_json, "extra-img-dark", style_json["extra-img"])
     fill_if_missing(style_json, "slides-img-dark", style_json["slides-img"])
     fill_if_missing(style_json, "bibtex-img-dark", style_json["bibtex-img"])
+    fill_if_missing(style_json, "headshot-img-dark", style_json["headshot-img"])
 
     profile_json = read_data("data/profile.json", optional=False)
     fail_if_not(

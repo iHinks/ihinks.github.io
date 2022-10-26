@@ -1,38 +1,42 @@
 header {
-    background-color: #3B7EA1;
+    background-color: #333E8C;
 }
 
 #scroller {
-    background-color: #00A598;
+    background-color: #42A677;
 }
 
 body {
-    background-color: #ffffff;
-    color: black;
+    background-color: #F6F0DE;
+    color: font-color;
 }
 
 .paper-icon-dark {
     display: None;
 }
 
+.headshot-img-dark {
+    display: None;
+}
+
 h1,
 h2,
 h3 {
-    color: #222;
+    color: #333E8C;
 }
 
 a {
-    color: #3B7EA1;
+    color: #333E8C;
 }
 
 a:hover {
-    color: #00A598;
+    color: #42A677;
 }
 
 .hbar {
-    color: #003362;
+    color: #C65B30;
 }
 
 h3 {
-    border-bottom: 1px #003362 dashed;
+    border-bottom: 1px #C65B30 dashed;
 }
