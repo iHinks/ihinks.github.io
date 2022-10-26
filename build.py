@@ -297,7 +297,7 @@ def build_icons(p):
     item += (
         '<a href="'
         + p["link"]
-        + '" alt="[PDF] "><img class="paper-icon" src="%s"/><img class="paper-icon-dark" src="%s"/></a>'
+        + '" alt="[PDF] " target="_blank" rel="noopener noreferrer"><img class="paper-icon" src="%s"/><img class="paper-icon-dark" src="%s"/></a>'
         % (style_json["paper-img"], style_json["paper-img-dark"])
         if p["link"]
         else ""
@@ -305,7 +305,7 @@ def build_icons(p):
     item += (
         '<a href="'
         + p["extra"]
-        + '" alt="[Extra] "><img class="paper-icon" src="%s"/><img class="paper-icon-dark" src="%s"/></a>'
+        + '" alt="[Extra] " target="_blank" rel="noopener noreferrer"><img class="paper-icon" src="%s"/><img class="paper-icon-dark" src="%s"/></a>'
         % (style_json["extra-img"], style_json["extra-img-dark"])
         if p["extra"]
         else ""
@@ -313,7 +313,7 @@ def build_icons(p):
     item += (
         '<a href="'
         + p["slides"]
-        + '" alt="[Slides] "><img class="paper-icon" src="%s"/><img class="paper-icon-dark" src="%s"/></a>'
+        + '" alt="[Slides] " target="_blank" rel="noopener noreferrer"><img class="paper-icon" src="%s"/><img class="paper-icon-dark" src="%s"/></a>'
         % (style_json["slides-img"], style_json["slides-img-dark"])
         if p["slides"]
         else ""
@@ -321,7 +321,7 @@ def build_icons(p):
     item += (
         '<a href="'
         + p["bibtex"]
-        + '" alt="[Bibtex] "><img class="paper-icon" src="%s"/><img class="paper-icon-dark" src="%s"/></a>'
+        + '" alt="[Bibtex] " target="_blank" rel="noopener noreferrer"><img class="paper-icon" src="%s"/><img class="paper-icon-dark" src="%s"/></a>'
         % (style_json["bibtex-img"], style_json["bibtex-img-dark"])
         if p["bibtex"]
         else ""
@@ -407,7 +407,7 @@ def build_name_header(profile: Dict[str, str]):
     name_header_html += '<div class="row">\n' # start single row
     name_header_html += '<div class="left_col"> <h1>' + profile["name"] + '</h1> </div>' # name
     name_header_html += '<div class="right_col">\n' 
-    name_header_html += '<h1><a href="%s">CV</a>' % profile["cv"] + ' | ' + '<a href="%s">Google Scholar</a>' % profile["scholar"] + ' | ' + '<a href="%s">GitHub</a>' % profile["github"] + ' | ' + '<a href="mailto:%s">email</a>' % profile["email"] + '</h1>\n'
+    name_header_html += '<h1><a href="%s" target="_blank" rel="noopener noreferrer">CV</a>' % profile["cv"] + ' | ' + '<a href="%s" target="_blank" rel="noopener noreferrer">Google Scholar</a>' % profile["scholar"] + ' | ' + '<a href="%s" target="_blank" rel="noopener noreferrer">GitHub</a>' % profile["github"] + ' | ' + '<a href="mailto:%s">email</a>' % profile["email"] + '</h1>\n'
     # name_header_html += '<object width="800px" height="400px" data="https://s3.amazonaws.com/dq-blog-files/pandas-cheat-sheet.pdf"></object>'
     # name_header_html += '<script src="https://coolors.co/palette-widget/widget.js"></script><script data-id="02654346318810674">new CoolorsPaletteWidget("02654346318810674", ["F6F0DE","C65B30","42A677","333E8C","F6B144"]); </script>'
     # name_header_html += '<h1><a href="%s">CV</a>' % profile["cv"] + '</h1>' +  '<h1><a href="%s"> | Google Scholar</a>' % profile["scholar"] + '</h1>' + '<h1><a href="%s"> | GitHub</a>' % profile["github"] + '</h1>' + '<h1><a href="%s"> | Email</a>' % profile["email"] + '</h1>\n'
@@ -485,7 +485,7 @@ def add_links(html: str, links: Dict[str, str]):
             status(f"- {name} {pos} {open} {close}", 2)
             target = name + " "
             if pos >= 0 and open == close:
-                target = '<a href="%s">%s</a>' % (links[name], name)
+                target = '<a href="%s" target="_blank" rel="noopener noreferrer">%s</a>' % (links[name], name)
                 suffix = suffix.replace(name, target, 1)
                 html = prefix + suffix
 
