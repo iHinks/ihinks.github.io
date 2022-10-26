@@ -1,7 +1,7 @@
 [
     {
         "date": "10/2022",
-        "text": "I will give an <a href=\"https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1151876\">oral presentation</a> at AGU '22"
+        "text": "I will give an <a href=\"https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1151876\" target=\"_blank\" rel=\"noopener noreferrer\">oral presentation</a> at AGU '22"
     },
     {
         "date": "10/2022",
@@ -29,11 +29,11 @@
     },
     {
         "date": "01/2022",
-        "text": "I wrote a guest post about <a href=\"https://cnr.ncsu.edu/geospatial/news/2022/01/20/efficiently-monitoring-small-farms-from-space/\">efficiently monitoring small farms from space</a> for the Center for Geospatial Analytics"
+        "text": "I wrote a guest post about <a href=\"https://cnr.ncsu.edu/geospatial/news/2022/01/20/efficiently-monitoring-small-farms-from-space/\" target=\"_blank\" rel=\"noopener noreferrer\">efficiently monitoring small farms from space</a> for the Center for Geospatial Analytics"
     },
     {
         "date": "12/2021",
-        "text": "I gave an <a href=\"https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/829623\">oral presentation</a> at AGU '21"
+        "text": "I gave an <a href=\"https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/829623\" target=\"_blank\" rel=\"noopener noreferrer\">oral presentation</a> at AGU '21"
     },
     {
         "date": "10/2021",
@@ -81,7 +81,7 @@
     },
     {
         "date": "06/2018",
-        "text": "I co-wrote a piece about <a href=\"https://rewritingthecode.org/the-power-of-outreach-to-increase-diversity-in-computer-science/\">the importance of outreach to boost diversity in computer science</a> for Rewriting the Code"
+        "text": "I co-wrote a piece about <a href=\"https://rewritingthecode.org/the-power-of-outreach-to-increase-diversity-in-computer-science/\" target=\"_blank\" rel=\"noopener noreferrer\">the importance of outreach to boost diversity in computer science</a> for Rewriting the Code"
     },
     {
         "date": "08/2017",
