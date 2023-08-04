@@ -1,7 +1,23 @@
 [
     {
+        "date": "05/2023",
+        "text": "I passed my preliminary written exam!"
+    },
+    {
+        "date": "01/2023",
+        "text": "My deep learning-based research on smallholder field delineation was featured in an <a href=\"https://news.ncsu.edu/2023/04/geospatial-analytics-ai-global-food-security-solutions\" target=\"_blank\" rel=\"noopener noreferrer\">NC State University News article</a>"
+    },
+    {
+        "date": "01/2023",
+        "text": "I won the Gladys West Award at the Center for Geospatial Analytics'  <a href=\"https://cnr.ncsu.edu/geospatial/news/2023/02/09/celebrating-our-community-spring2023\" target=\"_blank\" rel=\"noopener noreferrer\">fourth annual CGA Awards</a>"
+    },
+    {
         "date": "10/2022",
-        "text": "I will give an <a href=\"https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1151876\" target=\"_blank\" rel=\"noopener noreferrer\">oral presentation</a> at AGU '22"
+        "text": "I gave an <a href=\"https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1151876\" target=\"_blank\" rel=\"noopener noreferrer\">oral presentation</a> at AGU '22, entitled, 'Monitoring Smallholder Agriculture at Scale with Convolutional Networks and Data Augmentation'"
+    },
+    {
+        "date": "11/2022",
+        "text": "I co-organized <a href=\"https://www.gisweekatncstate.org\" target=\"_blank\" rel=\"noopener noreferrer\">GIS Week at NC State</a> with fellow students, Caitlin Haedrich and Andrew Shannon, and taught a workshop on open-source geospatial science software"
     },
     {
         "date": "10/2022",
@@ -33,7 +49,7 @@
     },
     {
         "date": "12/2021",
-        "text": "I gave an <a href=\"https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/829623\" target=\"_blank\" rel=\"noopener noreferrer\">oral presentation</a> at AGU '21"
+        "text": "I gave an <a href=\"https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/829623\" target=\"_blank\" rel=\"noopener noreferrer\">oral presentation</a> at AGU '21, entitled, 'Monitoring Crop Development in Smallholder Farms Using Remotely Sensed Time Series Data Augmentation'"
     },
     {
         "date": "10/2021",
