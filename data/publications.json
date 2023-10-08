@@ -220,6 +220,30 @@
         "selected": true
     },
     {
+        "title": "Quantifying the Impacts of Adaptations on Smallholder Farmers’ Climate Resilience (presentation)",
+        "year": "2023",
+        "venue": {
+            "name": "American Geophysical Union Fall Meeting 2023",
+            "short": "AGU"
+        },
+        "authors": [
+            {
+                "first": "Isabella",
+                "middle": "",
+                "last": "Hinks"
+            },
+            {
+                "first": "Josh",
+                "middle": "M.",
+                "last": "Gray"
+            }
+        ],
+        "link": "https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1275721",
+        "bibtex": "",
+        "section": "Conference Presentations",
+        "selected": true
+    },
+    {
         "title": "Monitoring Smallholder Agriculture at Scale with Convolutional Networks and Data Augmentation (presentation)",
         "year": "2022",
         "venue": {
