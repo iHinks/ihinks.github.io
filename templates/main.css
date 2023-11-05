@@ -8,6 +8,7 @@ body {
     -webkit-text-size-adjust: none;
     -moz-text-size-adjust: none;
     -ms-text-size-adjust: none;
+    z-index: 3
 }
 
 .content {
@@ -34,15 +35,17 @@ header {
 }
 
 footer {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 800px;
-    width: 90%;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 2000px;
+    width: 100%;
     font-size: xx-small;
     text-align: right;
     padding-top: 2em;
     padding-bottom: 1em;
     color: #AAAAAA;
+    position: relative;
+    z-index: -5;
 }
 
 footer a {
@@ -174,6 +177,8 @@ a {
     /* border-radius: 80px 0px 80px 0px; */
 }
 
+
+
 /* End Profile */
 
 /* Start News and Pubs */
@@ -228,6 +233,12 @@ a {
 .paper-icon, .paper-icon-dark {
     width: 20px;
     padding-left: 5px;
+}
+
+.hinksmaps-animation, .hinksmaps-animation-dark {
+    z-index: -5;
+    width: 100%;
+    height: auto;
 }
 
 .paper-title {
@@ -401,12 +412,16 @@ input:checked + .slider:before {
 
 }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+.bigrow {
+    width: 100%;
+    display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.bigcol {
+    flex: 33.33%;
+    padding: 0px;
+}
 
   /* Responsive layout - when the screen is less than 640px wide, make the  columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 640px) {

@@ -1,6 +1,6 @@
 {
     "font-color": "2F2F2E",
-    "background-color": "#F6F0DE",
+    "background-color": "#EFE6DA",
     "header-color": "#333E8C",
     "accent-color": "#333E8C",
     "link-hover-color": "#42A677",
@@ -10,6 +10,7 @@
     "slides-img": "images/slides.png",
     "bibtex-img": "images/bibtex.png",
     "headshot-img": "images/Izzi_Hinks_withdots.png",
+    "hinksmaps-animation": "images/tan_bg_hinksmaps.gif",
 
     "font-color-dark": "#EEEEEE",
     "background-color-dark": "black",
@@ -21,5 +22,6 @@
     "extra-img-dark": "images/extra-dark.png",
     "slides-img-dark": "images/slides-dark.png",
     "bibtex-img-dark": "images/bibtex-dark.png",
-    "headshot-img-dark": "images/Izzi_Hinks_withdots-dark.png"
+    "headshot-img-dark": "images/Izzi_Hinks_withdots-dark.png",
+    "hinksmaps-animation-dark": "images/tan_bg_hinksmaps.gif"
 }
