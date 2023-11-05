@@ -46,6 +46,8 @@ footer {
     color: #AAAAAA;
     position: relative;
     z-index: -5;
+    padding-top: 5em;
+    padding-bottom: 1.5em;
 }
 
 footer a {
