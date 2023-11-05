@@ -412,6 +412,13 @@ input:checked + .slider:before {
 
 }
 
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .bigrow {
     width: 100%;
     display: flex;
